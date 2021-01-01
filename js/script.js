@@ -64,23 +64,3 @@ function searchMovies(){
     }
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
