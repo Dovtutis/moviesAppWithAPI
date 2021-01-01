@@ -44,6 +44,7 @@ main {
 .movie {
     width: 300px;
     margin: 2rem;
+    position: relative;
     overflow: hidden;
     border-radius: 3px;
     background-color: #373b69;
@@ -86,4 +87,23 @@ main {
 .movie h3 {
     margin: 0;
     text-overflow:ellipsis;
+}
+
+.overview {
+    position: absolute;
+    background-color: #ffffff;
+    padding: 2rem;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    transform: translateY(101%);
+    transition: transform 0.4s ease-in;
+}
+
+.overview h4 {
+    margin-top: 0;
+}
+
+.movie:hover .overview {
+    transform: translateY(0);
 }
